@@ -1,0 +1,139 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font: 'segoe ui',roboto,helvetica,arial,sans-serif;
+  
+}
+
+header{
+  background-color:#1c1c24;
+  color:white;
+  display: flex;
+  
+  justify-content: space-between;
+  
+  width:100%;
+  
+}
+
+
+body{
+  background-color:#0B0C00;
+  color:white;
+  width:100%;
+  height:100vh;
+  overflow-x: hidden;
+  
+}
+
+.project-grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:15px;
+  padding:10pxpx;
+  margin-top:5px;
+}
+
+.project-card img{
+  width:100%;
+  height:auto;
+  border-radius:10px;
+  padding: 10px;
+  border-radius: 20px;
+
+  
+}
+
+
+.project{
+  display: flex;
+flex-wrap: wrap;
+padding: 20px;
+
+}
+
+.project-card{
+  background-color:#1c1c24;
+  border-radius: 15px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+
+nav ul li{
+  margin-top:5px;
+  padding:5px;
+}
+
+nav ul li a{
+  color:#00b4d8;
+}
+
+.header{
+  font-size: 24px;
+  font-weight: 600;
+  padding:5px;
+}
+
+.hero-div {
+  color:white;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  
+
+}
+
+.hero div h1{
+  padding: 20px;
+}
+.ppp{
+  font-size: 15px;
+  font-weight: 200;
+  padding:20px;
+  color:white;
+  
+}
+
+.hero div span{
+  background:linear-gradient(to right,#00b4d8,#00f5d4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.button a{
+  background:linear-gradient(to right,#00b4d8,#00f5d4);
+  padding:10px;
+  border-radius: 25px;
+  display: inline-block;
+  margin-top:20px;
+  text-decoration: none;
+}
+
+h3{
+  color:white;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+
+p{
+  text-align: center;
+  font-size: 12px;
+  font-weight: 50;
+  padding: 10px;
+}
+
+.project-card a{
+  color:#00b4d8;
+}
+
+.footer-text{
+  text-align: center;
+}
