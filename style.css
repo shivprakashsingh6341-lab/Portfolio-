@@ -109,12 +109,17 @@ nav ul li a{
 
 .button a{
   background:linear-gradient(to right,#00b4d8,#00f5d4);
-  padding:10px;
+  padding:12px 24px; /* थोड़ा पैडिंग बढ़ाएंगे तो बटन और सुंदर लगेगा */
   border-radius: 25px;
   display: inline-block;
   margin-top:20px;
   text-decoration: none;
+  
+  /* ⬇️ ये लाइन जोड़ें (काला रंग करने के लिए) */
+  color: #000000 !important; 
+  font-weight: bold; /* टेक्स्ट को थोड़ा मोटा करने के लिए */
 }
+
 
 h3{
   color:white;
